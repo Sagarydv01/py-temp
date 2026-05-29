@@ -51,3 +51,6 @@ print(type(tup4))   # <class 'tuple'>
 
 print("Count of 36: ", tup.count(36))
 print("Index of 36:", tup.index(36))
+
+
+# Dictionary
