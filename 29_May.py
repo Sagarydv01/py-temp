@@ -84,12 +84,12 @@ for i in range(1, 6):
 marks.sort(reverse=True)
 sum = 0
 
-# for i in range(0,5):
-#     sum += marks[i]
+for i in range(0,5):
+    sum += marks[i]
 
-# avrg = sum/5
+avrg = sum/5
 print("Highest marks:", marks[0])
-# print("Average marks:", avrg)
 print("Average marks:", marks[2])
 print("Lowest marks:", marks[4])
+print("Average marks:", avrg)
 
