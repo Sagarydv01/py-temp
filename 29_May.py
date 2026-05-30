@@ -35,7 +35,7 @@ print(lst.pop())
 lst.remove('A') 
 print(lst) """
 
-# Tuple
+""" # Tuple
 tup = (34, '35', 36, 36, 63, 24)
 tup2 = (56,)
 tup3 = (1)
@@ -50,7 +50,46 @@ print(type(tup3))   # <class 'int'>
 print(type(tup4))   # <class 'tuple'>
 
 print("Count of 36: ", tup.count(36))
-print("Index of 36:", tup.index(36))
+print("Index of 36:", tup.index(36)) """
 
 
-# Dictionary
+# List Palindrome
+list = []
+
+# list.append(input("Enter first element: "))
+# list.append(input("Enter second element: "))
+# list.append(input("Enter third element: "))
+# list.append(input("Enter fourth element: "))
+# list.append(input("Enter fifth element: "))
+
+# for i in range(1, 6):
+#     print("Enter element", i, ": ", end="")
+#     list.append(input())
+
+# cpList = list
+# cpList.reverse()
+# print(cpList)
+# print(list)
+# if list == cpList:
+#     print("Palindrome")
+# else:
+#     print("Not Palindrome")
+
+#
+marks =[]
+for i in range(1, 6):
+    print("Enter marks of subject", i, ": ", end="")
+    marks.append(int(input()))
+
+marks.sort(reverse=True)
+sum = 0
+
+# for i in range(0,5):
+#     sum += marks[i]
+
+# avrg = sum/5
+print("Highest marks:", marks[0])
+# print("Average marks:", avrg)
+print("Average marks:", marks[2])
+print("Lowest marks:", marks[4])
+
